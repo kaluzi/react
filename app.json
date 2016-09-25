@@ -1,0 +1,9 @@
+{
+  "name": "Flickr Search and View",
+  "description": "Flickr Question",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
+

@@ -1,0 +1,93 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  padding: 30px;
+}
+
+h6 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnail {
+  max-height: 100px;
+}
+
+.resultList {
+  text-align: center;
+}
+
+.resultList div{
+  display:inline-block;
+}
+
+.photo {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.modalDialog {
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 7% auto;
+}
+
+.modalDialog img {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.close {
+  background: #FFFFFF;
+  color: #000000;
+  line-height: 25px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.sortForm {
+  float: right;
+}
+
+.searchInput {
+  width: 250px;
+  margin-right: 5px;
+}
+
+.searchButton {
+  background: #FFFFFF;
+  color: #000000;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
