@@ -8,5 +8,3 @@ npm install
 node server.js
 
 Go to: http://localhost:3000/
-
-- Karen Lu
