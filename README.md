@@ -1,7 +1,7 @@
 React Flickr Search and View
 
-Note:
-The Flickr Search and View Tool requires a Flickr API Key (in public\scripts\searchPhoto.js) to retrieve the images from Flickr
+<b>Important Note</b>:<br>
+The Flickr Search and View Tool requires a <b>Flickr API Key</b> (in public\scripts\searchPhoto.js) to retrieve the images from Flickr
 
 Start a server:<br>
 npm install<br>
